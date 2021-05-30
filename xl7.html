@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/tailwind.min.css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <link rel="stylesheet" href="asset/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/swiper.min.css">
+    <link rel="stylesheet" href="asset/css/custom.css">
+    <title>Document</title>
+</head>
+<body class="overflow-x-hidden w-full">
+    <header class="sidebar-effect bg-white shadow-lg fixed top-0 w-full z-20">
+        <div class="p-2 flex">
+            <img src="asset/gambar/logo-suzuki.png" class="h-10 mx-2" alt="">
+            <div class="flex flex-col justify-center mx-4">
+                <h3 class="font-bold text-xs">PT Nusantara Jaya Sentosa</h3>
+                <p class="text-xs">Main Dealer Suzuki Jawa Barat</p>
+            </div>
+        </div>
+        <div class="bg-gray-100 px-4 pt-2">
+            <div class="font-semibold">XL 7</div>
+            <div class="divider-border"></div>
+            <div class="overflow-x-scroll flex mt-4">
+                <span class="text-suzuki font-semibold text-sm mr-3">Overview</span>
+                <span class="text-suzuki font-semibold text-sm mx-3 opacity-40">Tipe dan warna</span>
+                <span class="text-suzuki font-semibold text-sm mx-3 opacity-40">Eksterior</span>
+                <span class="text-suzuki font-semibold text-sm mx-3 opacity-40">Interior</span>
+                <span class="text-suzuki font-semibold text-sm mx-3 opacity-40">Spesifikasi</span>
+                <span class="text-suzuki font-semibold text-sm mx-3 opacity-40">Harga</span>
+            </div>
+        </div>
+    </header>
+    <div class="bg-sidebar-effect w-full h-full bg-black opacity-30 hidden fixed z-20"></div>
+    <div class="sidebar top-0 pt-20 px-4 -right-72 h-screen w-72 bg-white fixed z-20">
+        <nav class="flex flex-col">
+            <a href="#" class="font-medium text-lg py-1">Beranda</a>
+            <a href="#" class="font-medium text-lg py-1">Tentang Kami</a>
+            <a href="#" class="font-medium text-lg py-1">Outlet</a>
+            <a href="#" class="font-medium text-lg py-1">Blog</a>
+            <a href="#" class="font-medium text-lg py-1">Promo</a>
+        </nav>
+        <div class="divider-border my-5"></div>
+        <button class="button-outlet bg-suzuki w-full flex justify-center items-center py-2 my-1">
+            <img src="asset/gambar/call.svg" alt="">
+            <span class="font-medium mx-2 text-white">(022) 534543</span>
+        </button>
+        <div class="flex mt-5">
+            <a href="#" class="w-20">
+                <img src="asset/gambar/halosuzuki.png" class="object-contain" alt="">
+            </a>
+            <a href="#" class="w-44">
+                <img src="asset/gambar/mysuzuki.png" class="object-contain" alt="">
+            </a>
+        </div>
+        <div class="absolute bottom-10 text-sm">© 2020 Suzuki Indonesia</div>
+        <div class="absolute bottom-5 text-sm">All rights reserved.</div>
+    </div>
+    <div class="h-10 w-10 rounded-full bg-suzuki flex justify-center items-center fixed top-2 right-3 z-20">
+        <svg viewBox="0 0 12 10" class="hamburger" height="25px" width="35px">
+            <path d="M10,2 L2,2" class="upper" style="fill: none;stroke-linecap: round;stroke:#FFFFFF"/>
+            <path d="M2,5 L10,5" class="middle" style="fill: none;stroke-linecap: round;stroke:#FFFFFF"/>
+            <path d="M10,8 L2,8" class="lower" style="fill: none;stroke-linecap: round;stroke:#FFFFFF"/>   
+        </svg>
+    </div>
+    <main class="sidebar-effect relative w-full bg-main pb-5">
+        <div class="max-w-md mt-36 mx-auto">
+            <div class="swiper-container" style="height: 23rem;">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/hero-xl7-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/hero-xl7-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/hero-xl7-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/hero-xl7-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/hero-xl7-1.png" class="object-cover" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next">
+                    <img src="asset/gambar/ar.svg" alt="">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="asset/gambar/al.svg" alt="">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="bg-suzuki px-8 py-5">
+                <img src="asset/gambar/xl7-overview.png" alt="">
+                <h1 class="text-center text-sm text-white my-2">
+                    Suzuki XL7 hadir dengan tampilan maskulin, tangguh dan berkarakter. Desain modern SUV 7-Seater 
+                    memberikan kebanggaan dan kepercayaan bagi penggunanya. 
+                    Dilengkapi dengan fitur canggih semakin membuat XL7 menjadi SUV yang luar biasa di kelasnya
+                </h1>
+                <div class="divider-border mt-8"></div>
+                <div class="w-full justify-center flex pt-5">
+                    <button class="px-4 py-2 border-2 border-white mx-2 text-white text-sm font-semibold">
+                        UNDUH BROSUR
+                    </button>
+                    <button class="px-4 py-2 border-2 text-suzuki bg-white mx-2 text-sm font-semibold">
+                        HARGA
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white w-full p-4 my-3">
+                <h3 class="font-bold text-center text-lg mb-5">TIPE & WARNA</h3>
+                <nav class="w-full px-16 flex justify-center">
+                    <button data-list="list-alpha" class="btn-nav-list flex-1 flex flex-col items-center opacity-1">
+                        <span class="text-suzuki mb-2 font-medium">XL7 Alpha</span>
+                        <div class="w-full bg-suzuki h-1"></div>
+                    </button>
+                    <button data-list="list-beta" class="btn-nav-list flex-1 flex flex-col items-center opacity-40">
+                        <span class="text-suzuki mb-2 font-medium">XL7 Beta</span>
+                        <div class="w-full bg-suzuki h-1"></div>
+                    </button>
+                    <button data-list="list-zeta" class="btn-nav-list flex-1 flex flex-col items-center opacity-40">
+                        <span class="text-suzuki mb-2 font-medium">XL7 Zeta</span>
+                        <div class="w-full bg-suzuki h-1"></div>
+                    </button>
+                </nav>
+                <div data-list="list-alpha" class="w-full list-alpha p-5 list-active">
+                    <img  src="asset/gambar/xl7-alpha-1.png" class="alpha-1 img-mobil-active" alt="">
+                    <img  src="asset/gambar/xl7-alpha-2.png" class="alpha-2 img-mobil-nonactive" alt="">
+                    <img  src="asset/gambar/xl7-alpha-3.png" class="alpha-3 img-mobil-nonactive" alt="">
+                    <img  src="asset/gambar/xl7-alpha-4.png" class="alpha-4 img-mobil-nonactive" alt="">
+                    <h2 class="text-sm font-bold text-center mt-3 alpha-1 img-mobil-active">RISING ORANGE + BLACK</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 alpha-2 img-mobil-nonactive">BRAVE KAKHI + BLACK</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 alpha-3 img-mobil-nonactive">PRIME COOL BLACK</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 alpha-4 img-mobil-nonactive">PRIME SNOW WHITE</h2>
+                    <div class="w-full flex justify-center py-5">
+                        <div data-mobil="alpha-1" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-suzuki rounded-full bg-yellow-600 mx-2"></div>
+                        <div data-mobil="alpha-2" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-yellow-100 mx-2"></div>
+                        <div data-mobil="alpha-3" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-black mx-2"></div>
+                        <div data-mobil="alpha-4" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-white mx-2"></div>
+                    </div>
+                </div>
+                <div data-list="list-beta" class="w-full list-beta p-5 list-nonactive">
+                    <img  src="asset/gambar/xl7-beta-1.png" class="beta-1 img-mobil-active" alt="">
+                    <img  src="asset/gambar/xl7-beta-2.png" class="beta-2 img-mobil-nonactive" alt="">
+                    <img  src="asset/gambar/xl7-beta-3.png" class="beta-3 img-mobil-nonactive" alt="">
+                    <img  src="asset/gambar/xl7-beta-4.png" class="beta-4 img-mobil-nonactive" alt="">
+                    <h2 class="text-sm font-bold text-center mt-3 beta-1 img-mobil-active">PEARL BURGUNDY RED</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 beta-2 img-mobil-nonactive">METALLIC MAGMA GREY</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 beta-3 img-mobil-nonactive">PEARL SNOW WHITE</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 beta-4 img-mobil-nonactive">PRIME COOL BLACK</h2>
+                    <div class="w-full flex justify-center py-5">
+                        <div data-mobil="beta-1" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-suzuki rounded-full bg-purple-600 mx-2"></div>
+                        <div data-mobil="beta-2" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-grey-100 mx-2"></div>
+                        <div data-mobil="beta-3" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-white mx-2"></div>
+                        <div data-mobil="beta-4" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-black mx-2"></div>
+                    </div>
+                </div>
+                <div data-list="list-zeta" class="w-full list-zeta p-5 list-nonactive">
+                    <img  src="asset/gambar/xl7-zeta-1.png" class="zeta-1 img-mobil-active" alt="">
+                    <img  src="asset/gambar/xl7-zeta-2.png" class="zeta-2 img-mobil-nonactive" alt="">
+                    <img  src="asset/gambar/xl7-zeta-3.png" class="zeta-3 img-mobil-nonactive" alt="">
+                    <img  src="asset/gambar/xl7-zeta-4.png" class="zeta-4 img-mobil-nonactive" alt="">
+                    <h2 class="text-sm font-bold text-center mt-3 zeta-1 img-mobil-active">PEARL SNOW WHITE</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 zeta-2 img-mobil-nonactive">PRIME COOL BLACK</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 zeta-3 img-mobil-nonactive">METALLIC MAGMA GREY</h2>
+                    <h2 class="text-sm font-bold text-center mt-3 zeta-4 img-mobil-nonactive">PEARL BURGUNDY RED</h2>
+                    <div class="w-full flex justify-center py-5">
+                        <div data-mobil="zeta-1" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-suzuki rounded-full bg-white mx-2"></div>
+                        <div data-mobil="zeta-2" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-black mx-2"></div>
+                        <div data-mobil="zeta-3" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-grey-100 mx-2"></div>
+                        <div data-mobil="zeta-4" class="h-8 w-8 cursor-pointer border-2 nav-mobil border-white rounded-full bg-purple-600 mx-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-suzuki w-full my-3">
+                <h2 class="text-white font-bold text-center text-lg p-4">EKSTERIOR</h2>
+                <img src="asset/gambar/xl7-eksterior.png" class="w-full pb-10" alt="">
+            </div>
+            <div class="bg-suzuki w-full my-3">
+                <h2 class="text-white font-bold text-center text-lg p-4">INTERIOR</h2>
+                <img src="asset/gambar/xl7-interior.png" class="w-full pb-10" alt="">
+            </div>
+            <div class="bg-white w-full px-3 pb-4 my-3">
+                <h2 class="font-bold text-center text-lg p-4">SPESIFIKASI</h2>
+                <div class="w-full flex flex-col accordion-list">
+                    <div class="w-full nav-mobil my-2 accordion-item cursor-pointer">
+                        <div class="px-4 py-2 flex justify-between bg-gray-200">
+                            <span class="font-semibold">DIMENSI</span>
+                            <img src="asset/gambar/down.svg" alt="">
+                        </div>
+                        <div class="ai-item-inactive bg-white px-6 py-4 transition-all duration-700">
+                            <table class="w-full">
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="w-full nav-mobil my-2 accordion-item cursor-pointer">
+                        <div class="px-4 py-2 flex justify-between bg-gray-200">
+                            <span class="font-semibold">MESIN</span>
+                            <img src="asset/gambar/down.svg" alt="">
+                        </div>
+                        <div class="ai-item-inactive bg-white px-6 py-4 transition-all duration-700">
+                            <table class="w-full">
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                                <tr>
+                                    <td class="w-1/2 font-bold text-sm py-2">Panjang Keseluruhan</td>
+                                    <td class="w-1/2 text-sm text-right py-2">4,450 mm</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="w-full nav-mobil my-2 accordion-item cursor-pointer">
+                        <div class="px-4 py-2 flex justify-between bg-gray-200">
+                            <span class="font-semibold">TRANSMISI</span>
+                            <img src="asset/gambar/down.svg" alt="">
+                        </div>
+                        <div class="ai-item-inactive bg-white px-6 py-4 transition-all duration-700">
+                            <table class="w-full">
+                                <tbody>
+                                    <tr>
+                                      <th class="text-sm text-left">Perbandingan Gigi Akhir</th>
+                                      <td class="text-sm">3.545 / 2.875</td>
+                                    </tr><tr>
+                                    <th  class="text-sm text-left   " style="vertical-align: middle;">Ratio Gear</th>
+                                    <td><table align="left" border="0" cellpadding="1" cellspacing="1" style="width: 100%;">
+                                    <tbody>
+                                    <tr class="text-sm">
+                                    <td>Gear</td>
+                                    <td>M/T</td>
+                                    <td>A/T</td>
+                                    </tr>
+                                    <tr class="text-sm">
+                                    <td>1st</td>
+                                    <td>3.909</td>
+                                    <td>2.875</td>
+                                    </tr>
+                                    <tr class="text-sm">
+                                    <td>2nd</td>
+                                    <td>2.043</td>
+                                    <td>1.568</td>
+                                    </tr>
+                                    <tr class="text-sm">
+                                    <td>3rd</td>
+                                    <td>1.407</td>
+                                    <td>1.000</td>
+                                    </tr>
+                                    <tr class="text-sm">
+                                    <td>4th</td>
+                                    <td>1.065</td>
+                                    <td>0.697</td>
+                                    </tr>
+                                    <tr class="text-sm">
+                                    <td>5th</td>
+                                    <td>0.769</td>
+                                    <td>N.A</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="text-sm">Reverse</td>
+                                    <td>3.250</td>
+                                    <td>2.300</td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                                    </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white w-full px-3 pb-8 my-3 mb-5">
+                <h2 class="font-bold text-center text-lg p-4">DAFTAR HARGA XL7</h2>
+                <div class="px-4 py-2 my-4 flex justify-between bg-gray-200 shadow-lg">
+                    <span class="font-semibold">XL7 ZETA M/T</span>
+                    <span class="font-semibold">Rp 232.000.000</span>
+                </div>
+                <div class="px-4 py-2 my-4 flex justify-between bg-gray-200 shadow-lg">
+                    <span class="font-semibold">XL7 ZETA M/T</span>
+                    <span class="font-semibold">Rp 232.000.000</span>
+                </div>
+                <div class="px-4 py-2 my-4 flex justify-between bg-gray-200 shadow-lg">
+                    <span class="font-semibold">XL7 ZETA M/T</span>
+                    <span class="font-semibold">Rp 232.000.000</span>
+                </div>
+                <div class="px-4 py-2 my-4 flex justify-between bg-gray-200 shadow-lg">
+                    <span class="font-semibold">XL7 ZETA M/T</span>
+                    <span class="font-semibold">Rp 232.000.000</span>
+                </div>
+                <div class="px-4 py-2 my-4 flex justify-between bg-gray-200 shadow-lg">
+                    <span class="font-semibold">XL7 ZETA M/T</span>
+                    <span class="font-semibold">Rp 232.000.000</span>
+                </div>
+                <button class="button-outlet font-semibold py-2 px-4 mx-auto block mt-10">Lihat Semua Harga Mobil</button>
+            </div>
+        </div>
+    </main>
+    <div class="w-full fixed bottom-5 px-3 md:px-10 rounded-3xl">
+        <nav class="p-4 w-full flex bg-white rounded-3xl shadow-xl">
+            <a href="#" class="booking-trigger bg-suzuki w-7/12 flex justify-center items-center">
+                <span class="font-semibold text-white">Booking Mobil</span>
+            </a>
+            <a href="#" class="flex-1 flex flex-col justify-center items-center">
+                <img src="asset/gambar/wa.svg" alt="">
+                <span class="text-xs mt-1">Whatsapp</span>
+            </a>
+            <a href="#" class="flex-1 flex flex-col justify-center items-center">
+                <img src="asset/gambar/sk.svg" alt="">
+                <span class="text-xs mt-1">Simulasi Kredit</span>
+            </a>
+        </nav>
+    </div>
+    <footer class="bg-white w-full">
+        <div class="flex justify-center">
+            <a href="#" class="font-semibold text-sm px-3 py-5">Beranda</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Tentang Kami</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Outlet</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Blog</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Promo</a>
+        </div>
+        <div class="divider-border w-full"></div>
+        <div class="flex flex-col items-center mb-3">
+            <h3 class="font-bold text-xl mt-4">ALAMAT</h3> 
+            <h3 class="font-bold mt-2">Suzuki Nusantara Jaya Sentosa</h3> 
+            <p class="text-sm">Jl. Soekarno - Hatta no. 289, Bojongloa Kidul Bandung 40234</p>
+            <button class="button-outlet w-52 flex justify-center items-center py-2 my-3">
+                <img src="asset/gambar/map-pin.svg" alt="">
+                <span class="font-medium mx-2">CEK GOOGLE MAPS</span>
+            </button>
+            <button class="button-outlet bg-suzuki w-52 flex justify-center items-center py-2 my-1">
+                <img src="asset/gambar/call.svg" alt="">
+                <span class="font-medium mx-2 text-white">(022) 534543</span>
+            </button>
+        </div>
+        <div class="divider-border w-full"></div>
+        <div class="p-5 flex flex-col items-center">
+            <h3 class="font-bold my-4">HOTLINE 24 JAM (Bebas Pulsa)</h3> 
+            <a href="#">
+                <img src="asset/gambar/halosuzuki.png" alt="">
+            </a>
+            <h3 class="font-bold my-4">DOWNLOAD MY SUZUKI</h3> 
+            <a href="#" class="my-2">
+                <img src="asset/gambar/mysuzuki.png" alt="">
+            </a>
+            <a href="#" class="my-2">
+                <img src="asset/gambar/ecstar.png" alt="">
+            </a>
+        </div>
+        <div class="bg-suzuki py-8 flex flex-col items-center">
+            <span class="text-white text-sm font-medium">© 2020 Suzuki Indonesia.</span>
+            <span class="text-white text-sm font-medium">All rights reserved</span>
+        </div>
+    </footer>
+    <div class="w-full h-screen fixed top-0 left-0 z-50 flex justify-center items-center bg-wrapper-form hidden" style="background-color: rgba(0,0,0,0.6);">
+        <div class="w-10/12 lg:w-5/12 p-5 bg-white relative wrapper-form opacity-0 -top-20">
+            <div class="flex justify-between">
+                <div class="font-bold text-xl">Booking Mobil</div>
+                <button class="close">x</button>
+            </div>
+            <div class="divider-border mt-5"></div>
+            <form action="#">
+                <div class="w-full my-2">
+                    <label for="" class="my-2 block">Nama Lengkap</label>
+                    <input class="block w-full px-3 py-1 bg-white border-2 border-solid border-gray-100" type="text">
+                </div>
+                <div class="w-full my-2">
+                    <label for="" class="my-2 block">Email</label>
+                    <input class="block w-full px-3 py-1 bg-white border-2 border-solid border-gray-100" type="email">
+                </div>
+                <div class="w-full my-2">
+                    <label for="" class="my-2 block">No HP</label>
+                    <input class="block w-full px-3 py-1 bg-white border-2 border-solid border-gray-100" type="text">
+                </div>
+                <div class="flex my-2">
+                    <div class="flex-1 my-2 mr-1">
+                        <label for="" class="my-2 block">Mobil</label>
+                        <select class="block w-full px-3 py-1 bg-white border-2 border-solid border-gray-100">
+                            <option value="">XL 7</option>
+                            <option value="">XL 7</option>
+                            <option value="">XL 7</option>
+                            <option value="">XL 7</option>
+                            <option value="">XL 7</option>
+                        </select>
+                    </div>
+                    <div class="flex-1 my-2 ml-1">
+                        <label for="" class="my-2 block">Tipe</label>
+                        <select class="block w-full px-3 py-1 bg-white border-2 border-solid border-gray-100">
+                            <option value="">ZETA/MT</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="divider-border my-7"></div>
+                <div class="flex my-2">
+                    <button class="flex-1 font-semibold text-suzuki py-3 px-2 close">Batal</button>
+                    <button class="flex-1 font-semibold text-white bg-suzuki py-3 px-2">KIRIM</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="asset/js/gsap.min.js"></script>
+<script src="asset/js/jquery.min.js"></script>
+<script src="asset/js/slick.min.js"></script>
+<script type="text/javascript" src="asset/js/swiper.min.js"></script>
+<script src="asset/js/custom.js"></script>
+</html>

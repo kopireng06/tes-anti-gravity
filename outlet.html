@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/tailwind.min.css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <link rel="stylesheet" href="asset/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/swiper.min.css">
+    <link rel="stylesheet" href="asset/css/custom.css">
+    <title>Document</title>
+</head>
+<body class="overflow-x-hidden w-full">
+    <header class="sidebar-effect bg-white shadow-lg fixed top-0 w-full z-20">
+        <div class="p-2 flex">
+            <img src="asset/gambar/logo-suzuki.png" class="h-10 mx-2" alt="">
+            <div class="flex flex-col justify-center mx-4">
+                <h3 class="font-bold text-xs">PT Nusantara Jaya Sentosa</h3>
+                <p class="text-xs">Main Dealer Suzuki Jawa Barat</p>
+            </div>
+        </div>
+    </header>
+    <div class="bg-sidebar-effect w-full h-full bg-black opacity-30 hidden fixed z-20"></div>
+    <div class="sidebar top-0 pt-20 px-4 -right-72 h-screen w-72 bg-white fixed z-20">
+        <nav class="flex flex-col">
+            <a href="#" class="font-medium text-lg py-1">Beranda</a>
+            <a href="#" class="font-medium text-lg py-1">Tentang Kami</a>
+            <a href="#" class="font-medium text-lg py-1">Outlet</a>
+            <a href="#" class="font-medium text-lg py-1">Blog</a>
+            <a href="#" class="font-medium text-lg py-1">Promo</a>
+        </nav>
+        <div class="divider-border my-5"></div>
+        <button class="button-outlet bg-suzuki w-full flex justify-center items-center py-2 my-1">
+            <img src="asset/gambar/call.svg" alt="">
+            <span class="font-medium mx-2 text-white">(022) 534543</span>
+        </button>
+        <div class="flex mt-5">
+            <a href="#" class="w-20">
+                <img src="asset/gambar/halosuzuki.png" class="object-contain" alt="">
+            </a>
+            <a href="#" class="w-44">
+                <img src="asset/gambar/mysuzuki.png" class="object-contain" alt="">
+            </a>
+        </div>
+        <div class="absolute bottom-10 text-sm">© 2020 Suzuki Indonesia</div>
+        <div class="absolute bottom-5 text-sm">All rights reserved.</div>
+    </div>
+    <div class="h-10 w-10 rounded-full bg-suzuki flex justify-center items-center fixed top-2 right-3 z-20">
+        <svg viewBox="0 0 12 10" class="hamburger" height="25px" width="35px">
+            <path d="M10,2 L2,2" class="upper" style="fill: none;stroke-linecap: round;stroke:#FFFFFF"/>
+            <path d="M2,5 L10,5" class="middle" style="fill: none;stroke-linecap: round;stroke:#FFFFFF"/>
+            <path d="M10,8 L2,8" class="lower" style="fill: none;stroke-linecap: round;stroke:#FFFFFF"/>   
+        </svg>
+    </div>
+    <main class="sidebar-effect relative w-full bg-main">
+        <div class="max-w-md mt-14 mx-auto">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="asset/gambar/banner-1.png" class="object-cover" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next">
+                    <img src="asset/gambar/ar.svg" alt="">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="asset/gambar/al.svg" alt="">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="bg-suzuki px-5 pt-10 pb-5">
+                <h1 class="text-white font-bold text-lg text-center">Temukan Mobil Suzuki yang tepat untuk Anda</h1>
+            </div>
+            <div class="bg-suzuki py-3 flex relative">
+                <div class="button-passenger-car flex-1 px-4 text-white font-semibold text-center cursor-pointer transition duration-500">Passenger Car</div>
+                <div class="button-commercial-car flex-1 px-4 text-white font-semibold text-center cursor-pointer transition duration-500">Commercial Car</div>
+                <div class="w-1/2 h-1 bg-white absolute bottom-0 nav-list"></div>
+            </div>
+            <div class="w-full bg-white py-5 px-3 list-passenger-car list-car-active">
+                <div class="flex flex-col w-full">
+                    <div class="flex">
+                        <div class="flex-1 h-32">
+                            <img src="asset/gambar/mobil-1.png" class="object-contain" alt="">
+                        </div>
+                        <div class="flex-1 flex flex-col justify-center">
+                            <span class="font-semibold ml-3">XL 7</span>
+                            <span class="text-gray-400 text-xs italic ml-3">Mulai dari</span>
+                            <span class="text-suzuki font-bold text-sm ml-3">Rp 232.000.000</span>
+                            <a href="#" class="tag-outlet w-20 rounded text-xs px-2 py-0.5 ml-3 mt-1">lihat detail</a>
+                        </div>
+                    </div>
+                    <div class="divider-border w-full my-3"></div>
+                </div>
+                <div class="flex flex-col w-full">
+                    <div class="flex">
+                        <div class="flex-1 h-32">
+                            <img src="asset/gambar/mobil-1.png" class="object-contain" alt="">
+                        </div>
+                        <div class="flex-1 flex flex-col justify-center">
+                            <span class="font-semibold ml-3">XL 7</span>
+                            <span class="text-gray-400 text-xs italic ml-3">Mulai dari</span>
+                            <span class="text-suzuki font-bold text-sm ml-3">Rp 232.000.000</span>
+                            <a href="#" class="tag-outlet w-20 rounded text-xs px-2 py-0.5 ml-3 mt-1">lihat detail</a>
+                        </div>
+                    </div>
+                    <div class="divider-border w-full my-3"></div>
+                </div>
+                <div class="flex flex-col w-full">
+                    <div class="flex">
+                        <div class="flex-1 h-32">
+                            <img src="asset/gambar/mobil-1.png" class="object-contain" alt="">
+                        </div>
+                        <div class="flex-1 flex flex-col justify-center">
+                            <span class="font-semibold ml-3">XL 7</span>
+                            <span class="text-gray-400 text-xs italic ml-3">Mulai dari</span>
+                            <span class="text-suzuki font-bold text-sm ml-3">Rp 232.000.000</span>
+                            <a href="#" class="tag-outlet w-20 rounded text-xs px-2 py-0.5 ml-3 mt-1">lihat detail</a>
+                        </div>
+                    </div>
+                    <div class="divider-border w-full my-3"></div>
+                </div>
+            </div>
+            <div class="w-full py-5 bg-white px-3 list-commercial-car list-car-nonactive">
+                <div class="flex flex-col w-full">
+                    <div class="flex">
+                        <div class="flex-1 h-32">
+                            <img src="asset/gambar/mobil-5.png" class="object-contain" alt="">
+                        </div>
+                        <div class="flex-1 flex flex-col justify-center">
+                            <span class="font-semibold ml-3">XL 7</span>
+                            <span class="text-gray-400 text-xs italic ml-3">Mulai dari</span>
+                            <span class="text-suzuki font-bold text-sm ml-3">Rp 232.000.000</span>
+                            <a href="#" class="tag-outlet w-20 rounded text-xs px-2 py-0.5 ml-3 mt-1">lihat detail</a>
+                        </div>
+                    </div>
+                    <div class="divider-border w-full my-3"></div>
+                </div>
+                <div class="flex flex-col w-full">
+                    <div class="flex">
+                        <div class="flex-1 h-32">
+                            <img src="asset/gambar/mobil-5.png" class="object-contain" alt="">
+                        </div>
+                        <div class="flex-1 flex flex-col justify-center">
+                            <span class="font-semibold ml-3">XL 7</span>
+                            <span class="text-gray-400 text-xs italic ml-3">Mulai dari</span>
+                            <span class="text-suzuki font-bold text-sm ml-3">Rp 232.000.000</span>
+                            <a href="#" class="tag-outlet w-20 rounded text-xs px-2 py-0.5 ml-3 mt-1">lihat detail</a>
+                        </div>
+                    </div>
+                    <div class="divider-border w-full my-3"></div>
+                </div>
+            </div>
+            <div class="w-full pt-5 pb-10 bg-white">
+                <button class="button-outlet py-1 px-2 font-semibold block mx-auto">Lihat Semua Mobil</button>
+            </div>
+            <a href="#" class="w-full h-72 block bg-cover bg-no-repeat" style="background-image: url(asset/gambar/pesan-servis.png);"></a>
+            <a href="#" class="w-full h-72 block bg-cover bg-no-repeat mt-0.5" style="background-image: url(asset/gambar/sukucadang.png);"></a>
+        </div>
+    </main>
+    <div class="w-full fixed bottom-5 px-3 md:px-10 rounded-3xl">
+        <nav class="p-4 w-full flex bg-white rounded-3xl shadow-xl">
+            <a href="#" class="flex-1 flex flex-col justify-center items-center">
+                <img src="asset/gambar/wa.svg" alt="">
+                <span class="text-xs mt-1">Whatsapp</span>
+            </a>
+            <a href="#" class="flex-1 flex flex-col justify-center items-center">
+                <img src="asset/gambar/dh.svg" alt="">
+                <span class="text-xs mt-1">Daftar Harga</span>
+            </a>
+            <a href="#" class="flex-1 flex flex-col justify-center items-center">
+                <img src="asset/gambar/ps.svg" alt="">
+                <span class="text-xs mt-1">Pesan Servis</span>
+            </a>
+            <a href="#" class="flex-1 flex flex-col justify-center items-center">
+                <img src="asset/gambar/sk.svg" alt="">
+                <span class="text-xs mt-1">Simulasi Kredit</span>
+            </a>
+        </nav>
+    </div>
+    <footer class="bg-white w-full">
+        <div class="flex justify-center">
+            <a href="#" class="font-semibold text-sm px-3 py-5">Beranda</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Tentang Kami</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Outlet</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Blog</a>
+            <a href="#" class="font-semibold text-sm px-3 py-5">Promo</a>
+        </div>
+        <div class="divider-border w-full"></div>
+        <div class="flex flex-col items-center mb-3">
+            <h3 class="font-bold text-xl mt-4">ALAMAT</h3> 
+            <h3 class="font-bold mt-2">Suzuki Nusantara Jaya Sentosa</h3> 
+            <p class="text-sm">Jl. Soekarno - Hatta no. 289, Bojongloa Kidul Bandung 40234</p>
+            <button class="button-outlet w-52 flex justify-center items-center py-2 my-3">
+                <img src="asset/gambar/map-pin.svg" alt="">
+                <span class="font-medium mx-2">CEK GOOGLE MAPS</span>
+            </button>
+            <button class="button-outlet bg-suzuki w-52 flex justify-center items-center py-2 my-1">
+                <img src="asset/gambar/call.svg" alt="">
+                <span class="font-medium mx-2 text-white">(022) 534543</span>
+            </button>
+        </div>
+        <div class="divider-border w-full"></div>
+        <div class="p-5 flex flex-col items-center">
+            <h3 class="font-bold my-4">HOTLINE 24 JAM (Bebas Pulsa)</h3> 
+            <a href="#">
+                <img src="asset/gambar/halosuzuki.png" alt="">
+            </a>
+            <h3 class="font-bold my-4">DOWNLOAD MY SUZUKI</h3> 
+            <a href="#" class="my-2">
+                <img src="asset/gambar/mysuzuki.png" alt="">
+            </a>
+            <a href="#" class="my-2">
+                <img src="asset/gambar/ecstar.png" alt="">
+            </a>
+        </div>
+        <div class="bg-suzuki py-8 flex flex-col items-center">
+            <span class="text-white text-sm font-medium">© 2020 Suzuki Indonesia.</span>
+            <span class="text-white text-sm font-medium">All rights reserved</span>
+        </div>
+    </footer>
+</body>
+<script src="asset/js/gsap.min.js"></script>
+<script src="asset/js/jquery.min.js"></script>
+<script src="asset/js/slick.min.js"></script>
+<script type="text/javascript" src="asset/js/swiper.min.js"></script>
+<script src="asset/js/custom.js"></script>
+</html>
